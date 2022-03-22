@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.daoshu_jishuqi">
-    <uses-permission android:name="android.permission.PREVENT_POWER_KEY" />
+    package="com.example.DropdownNotification">
 
     <application
         android:allowBackup="true"
@@ -10,23 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Daoshu_jishuqi">
-<!--        <activity-->
-<!--            android:name=".MainActivity2"-->
-<!--            android:exported="false" />-->
 
-<!--        <service android:name=".MyAccessibilityService"-->
-<!--            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"-->
-<!--            android:label="@string/accessibility_service_label"-->
-<!--            android:exported="false">-->
-<!--&lt;!&ndash;            是否可被其他app发现&ndash;&gt;-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.accessibilityservice.AccessibilityService" />-->
-<!--            </intent-filter>-->
-<!--            <meta-data-->
-<!--                android:name="android.accessibilityservice"-->
-<!--                android:resource="@xml/accessibility_service_config" />-->
-<!--        </service>-->
-        <service android:name=".MyAccessibilityService"
+        <service android:name="com.example.DropdownNotification.MyAccessibilityService"
             android:permission = "android.permission.BIND_ACCESSIBILITY_SERVICE"
             android:exported="true">
             <intent-filter>
@@ -35,7 +19,6 @@
             <meta-data android:name="android.accessibilityservice"
                 android:resource="@xml/accessibility_service_config" />
         </service>
-
 
     </application>
 

@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.daoshu_jishuqi",
+  "applicationId": "com.example.DropdownNotification",
   "variantName": "release",
   "elements": [
     {

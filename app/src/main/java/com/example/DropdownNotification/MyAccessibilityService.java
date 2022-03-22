@@ -1,4 +1,4 @@
-package com.example.daoshu_jishuqi;
+package com.example.DropdownNotification;
 
 import android.accessibilityservice.AccessibilityService;
 import android.accessibilityservice.AccessibilityServiceInfo;
@@ -11,13 +11,7 @@ import android.view.accessibility.AccessibilityManager;
 
 //import android.view.KeyEvent;
 
-import android.view.View;
-
-import android.view.accessibility.AccessibilityManager;
-import android.view.inputmethod.BaseInputConnection;
-
 import static android.media.AudioManager.ADJUST_LOWER;
-import static android.media.AudioManager.ADJUST_RAISE;
 import static android.media.AudioManager.FLAG_SHOW_UI;
 
 public class MyAccessibilityService extends AccessibilityService implements KeyEvent.Callback {
